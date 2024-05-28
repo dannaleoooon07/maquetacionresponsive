@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #c9f1ec;
+}
+
+.caja1 {
+    background-color: #f1ade3;
+    height: 150px;
+    border: 1px solid black;
+}
+
+.caja2 {
+    background-color: #cf9bfa;
+    height: 150px;
+    border: 1px solid black;
+}
+
+@media (max-width: 768px) {
+    .rosita {
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .lila {
+        display: none;
+    }
+}
